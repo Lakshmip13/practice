@@ -1,0 +1,252 @@
+1.a)Create class called BankAccount add the following credentials
+	a.bank name
+	b.owner name
+	c.contact number
+	d.balance
+b)create a method  show_account_details() to provide access to bankname,ownername,contactnumber
+c)create  methods  and provide a security to the balance entity by using get() and set() 
+d)create a method called withdraw() and update the balance whenever amount from the user is debited
+e)create a method called deposit() and update the balance whenever amount from the user is added
+f)create a method checkbalance() and provide accessbility to balance
+g)Pass input from keyboard by creating separate class called MainAccount and provide accessbility to 
+all the members present in BankAccount
+
+2.Given a string, take the first 2 chars and return the string with the 2 chars added at both the front and back, so "kitten" yields"kikittenki". If the string length is less than 2, use whatever chars are there.
+front22("kitten") ? "kikittenki"
+front22("Ha") ? "HaHaHa"
+front22("abc") ? "ababcab"
+
+3)Given an array of scores, return true if each score is equal or greater than the one before. The array will be length 2 or more.
+scoresIncreasing([1, 3, 4]) ? true
+scoresIncreasing([1, 3, 2]) ? false
+scoresIncreasing([1, 1, 4]) ? true
+
+4)WAJP to avoid race condition in java
+	
+5) WAJP to add key as name and value as contact number for 3 users 
+and fetch the details of users according to keys
+6) WAJP to preform customized exception
+7)WAJP  to perform customized sorting of student id's by using comparator
+1.a)Create class called BankAccount add the following credentials
+	a.bank name
+	b.owner name
+	c.contact number
+	d.balance
+b)create a method  show_account_details() to provide access to bankname,ownername,contactnumber
+c)create  methods  and provide a security to the balance entity by using get() and set() 
+d)create a method called withdraw() and update the balance whenever amount from the user is debited
+e)create a method called deposit() and update the balance whenever amount from the user is added
+f)create a method checkbalance() and provide accessbility to balance
+g)Pass input from keyboard by creating separate class called MainAccount and provide accessbility to 
+all the members present in BankAccount
+
+2.Given a string, take the first 2 chars and return the string with the 2 chars added at both the front and back, so "kitten" yields"kikittenki". If the string length is less than 2, use whatever chars are there.
+front22("kitten") ? "kikittenki"
+front22("Ha") ? "HaHaHa"
+front22("abc") ? "ababcab"
+
+3)Given an array of scores, return true if each score is equal or greater than the one before. The array will be length 2 or more.
+scoresIncreasing([1, 3, 4]) ? true
+scoresIncreasing([1, 3, 2]) ? false
+scoresIncreasing([1, 1, 4]) ? true
+
+4)WAJP to avoid race condition in java
+	
+5) WAJP to add key as name and value as contact number for 3 users 
+and fetch the details of users according to keys
+6) WAJP to preform customized exception
+7)WAJP  to perform customized sorting of student id's by using comparator
+1)What is the size of float and double in java?
+
+a)32 and 64
+b)32 and 32
+c)64 and 64
+d)64 and 32
+
+
+
+2)Find the value of A[1] after execution of the following program.
+
+
+int[] A = {0,2,4,1,3};
+for(int i = 0; i < a.length; i++){
+    a[i] = a[(a[i] + 3) % a.length];
+}
+
+a)0
+b)1
+c)2
+d)3
+
+
+
+3)What will be the output of the following Java program?
+
+    
+class string_demo 
+{
+  public static void main(String args[])
+ 
+{String obj = "I" + "like" + "Java"; System.out.println(obj);}
+   }
+
+a) I
+b) like
+c) Java
+d) IlikeJava
+
+
+
+4). What will be the output of the following Java program?
+
+class string_class 
+    {
+       
+ public static void main(String args[])
+     
+   {
+            String obj = "I LIKE JAVA";   
+            System.out.println(obj.charAt(3));
+        } 
+    }
+
+a) I
+b) L
+c) K
+d) E
+
+
+
+5) Identify the return type of a method that does not return any value.
+
+a)int
+b)void
+c)double
+d)None
+
+
+
+6)Which component is used to compile, debug and execute the java programs?
+
+a) JRE
+b) JIT
+c) JDK
+d) JVM
+
+
+
+7)What will be the output of the following Java code?
+
+   
+ class increment {
+    
+    public static void main(String args[]) 
+       
+ {        
+             int g = 3;
+             System.out.print(++g * 8);
+        } 
+    }
+
+a) 32
+b) 33
+c) 24
+d) 25
+
+
+
+8)An IF-ELSE statement is also called ___.
+A) Branching statement
+B) Control statement
+C) Block statements
+D) All
+
+9)What will be the output of the following Java program?
+
+    
+class Output 
+    {
+    
+    public static void main(String args[])
+      
+  {
+            int arr[] = {1, 2, 3, 4, 5};
+     
+       for ( int i = 0; i < arr.length - 2; ++i)
+    
+            System.out.println(arr[i] + " ");
+        } 
+    }
+
+a) 1 2 3 4 5
+b) 1 2 3 4
+c) 1 2
+d) 1 2 3
+
+
+10)What is the extension of compiled java classes?
+
+a) .txt
+b) .js
+c) .class
+d) .java
+11)The condition of an IF statement evaluates to boolean only if the expression contains?
+A) logical operators
+B) relational operators
+C) boolean operands
+D) All
+12)What is maximum lines of code that can be written inside a Java style IF, ELSE or IF-ELSE block?
+A) 32
+B) 64
+C) 512
+D) None
+13)An Array in Java is a collection of elements of ___ data type.
+A) Same
+B) Different
+C) BOTH A AND B
+D)NONE
+14)All Java methods must have a return type. (TRUE / FALSE)
+A) TRUE
+B) FALSE
+C) BOTH A AND B
+D) NONE
+15)What is the output of the below Java program with an empty return statement?
+ class TestingMethods2
+{
+ public static void show()
+  {
+    System.out.println("SHOW Method..");
+    return;
+  }
+  public static void main(String[] args)
+  {
+   show();
+  }
+}
+A) SHOW Method..
+B) No output
+C) Compiler error
+D) None
+---------------------------------------------------------------------------------------------
+PROGRAM
+1.Given a string of even length, return a string made of the middle two chars, so the string "string" yields "ri". The string length will be at least 2.
+middleTwo("string") ? "ri"
+middleTwo("code") ? "od"
+middleTwo("Practice") ? "ct"
+2.WAJP TO CHECK THE NUMBER IS GREATER OR LESSER OR EQUAL BY USING SWITCH -CASE
+3.WAJP TO CHECK THE NUMBER IS EVEN OR ODD USING SWITCH CASE
+4.Given an array of scores, compute the int average of the first half and the second half, and return whichever is larger. We'll say that the second half begins at index length/2. The array length will be at least 2. To practice decomposition, write a separate helper method
+int average(int[] scores, int start, int end) { which computes the average of the elements between indexes start..end. Call your helper method twice to implement scoresAverage(). Write your helper method after your scoresAverage() method in the JavaBat text area. Normally you would compute averages with doubles, but here we use ints so the expected results are exact.
+scoresAverage([2, 2, 4, 4]) ? 4
+scoresAverage([4, 4, 4, 2, 2, 2]) ? 4
+scoresAverage([3, 4, 5, 1, 2, 3]) ? 4
+5.WAJP FOR BELOW SCENARIO
+	a.create a class Vote
+	b.declare a variable age
+	c.Age limit to vote is 18 years,now chack the age of a person
+	if the person's age is greater or exactly 18 then print " person is eligible " else print "not eligible"
+6.WAJP FOR BELOW SCENARIO
+	a.create class Student
+	b.declare the variables student_marks and student_age
+	c.if student_marks is greater than or equal to 90 and student_age is exactly equal to 21 then "student eligible for scholorship"
+	else "not eligible for scholorship"
